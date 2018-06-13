@@ -14,14 +14,69 @@ color:#ffffff;
  
 	
 }
+.materials{
+font-size:24px;
+line-height:30px;
+font-weight:bold;	
+}
+.contacts {
+font-size:16px;
+line-height:23px;
+color:#ee3643;
+font-style:italic;
+ 
+}
+.registration{
+font-size:21px;
+line-height:21px;
+color:#000000;
+}
+.popular{
+font-size:30px;
+line-height:30px;
+color:#32425c;
+}
+.old-popular{
+font-size:14px;
+line-height:18px;
+background-color:#ee3643;
+color:#ffffff;
+}
+.manufacturer{
+font-size:30px;
+line-height:30px;
+color:#32425c;
+}
+.old-manufacturer{
+font-size:14px;
+line-height:18px;
+background-color:#ee3643;
+color:#ffffff;
+}	
+.tehnomart{
+	font-size:24px;
+	line-height:24px;
+	 
+}
+.topmenu{
+font-size:17px;
+line-height:18px;
+color:#ffffff;	
+}
+ 
 .main-nav li{
 list-style:none;	
 }
 .topmenu li{
 list-style:none;	
 }
-.perf{
-list-style:none;	
+.perf li{
+list-style:none;
+font-size:18px;
+line-height:20px;
+font-weight:bold;
+font-family: 'PT Sans', sans-serif; 
+color:#ffffff;	
 }
 .footer-nav{
 list-style:none;	
@@ -31,4 +86,97 @@ list-style:none;
 }
 .delivery{
 list-style:none;	
+}
+.dgk{
+font-size:21px;
+line-height:30px;
+font-weight:bold;
+font-family:Cuprum;
+	
+}
+.services h3{
+font-size:30px;
+line-height:30px;
+font-family:Cuprum;	
+}
+.services p{
+font-size:13px;
+line-height:24px;
+font-family:PT Sans, sans-serif;	
+}
+.services-d h3{
+font-size:36px;
+line-height:36px;
+font-family:Cuprum;	
+}
+.services-d p{
+font-size:13px;
+line-height:24px;
+font-family:PT Sans, sans-serif;	
+}
+.company h3{
+font-size:30px;
+line-height:30px;
+font-family:Cuprum;	
+}
+.company p{
+font-size:13px;
+line-height:24px;
+font-family:PT Sans, sans-serif;	
+}
+.delivery li{
+font-size:18px;
+line-height:20px;
+font-family:Cuprum;	
+}
+.about-us{
+background-color:#ee3643;
+color:#ffffff;
+font-size:14px;
+line-height:18px;
+font-family:Cuprum;	
+}
+.us-office h3{
+font-size:30px;
+line-height:30px;
+font-family:Cuprum;		
+}
+.us-office span{
+font-size:13px;
+line-height:24px;
+font-family:PT Sans, sans-serif;	
+}
+.letter{
+background-color:#ee3643;
+font-size:14px;
+line-height:18px;
+font-family:Cuprum;
+color:#ffffff;	
+}
+.footer-adress h1{
+font-size:30px;
+line-height:30px;
+font-family:Cuprum;	
+}
+.footer-adress span{
+	font-size:18px;
+	line-height:24px;
+	font-family:Cuprum;
+}
+.footer-nav a{
+font-size:18px;
+	line-height:24px;
+	font-family:Cuprum;	
+}
+.footer-special a{
+font-size:18px;
+	line-height:24px;
+	font-family:Cuprum;	
+color:#ffd180;	
+}
+.special-one{
+font-size:16px;
+	line-height:18px;
+color:#ffd180;
+font-family:Cuprum;	
 }

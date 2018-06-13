@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -14,7 +15,7 @@
 		<form action="http://echo.htmlacademy.ru" method="post" name="">
 		<input type="search" class="search">
 		</form>
-		<h1>Техномарт</h1>
+		<h1 class="tehnomart">Техномарт</h1>
 		<ul class="topmenu">
 		
 		<li>
@@ -38,7 +39,7 @@
 		 <div class="adress"> 
 		  +7(812)555 05 55 ул.Большая Конюшенная д.15 
 		 </div>
-		 <div class="registranion"> 
+		 <div class="registration"> 
 		 <form action="http://echo.htmlacademy.ru"method="post" name="registration">
 		 <input type="text" name="войти" value="Войти">
 		 <input type="text" name="регистрация" value="Регистрация">
@@ -57,9 +58,9 @@
 		 </nav>
 	</header>
 <main>
-<section>
+<section class="materials">
 <div>
-<h3><a  class="materials" href="#">Материалы</a> </h3>      
+<h3><a href="#">Материалы</a> </h3>      
 </div>
 <div>
 <h3><a href="#">Инструмент</a> </h3>
@@ -78,38 +79,52 @@
 </div>
 </section>
  <div>
- Популярные товары
+ <span class="popular">Популярные товары </span>
  <form action="http://echo.htmlacademy.ru"method="post" name="goods">
- <input tape="text" name="Все строительные товары" >
+ <input class="old-popular" tape="text" name="Все популярные товары" value="Все популярные товары" >
  </form>
  
  </div>
-<section>
-<ul class="perf">
-<li>Перфораторы </li>
-<li>Перфораторы</li>
-<li>Перфораторы</li>
-<li>Перфораторы</li>
-
+ 
+<div class="perf">
+<ul> 
+<li><img src="img/perf1.png" alt="текст">
+Перфоратор BOSH BFG 9000 25500p
+</li>
+<li><img src="img/perf2.png" alt="текст">
+Перфоратор BOSH BFG 3000 15500p
+</li>
+<li><img src="img/perf3.png" alt="текст">
+Перфоратор BOSH BFG 6000 25500р
+</li>
+<li><img src="img/perf4.png" alt="текст">
+Перфоратор BOSH BFG 2000 12500p
+</li>
 </ul>
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<section>
+ 
 
 <form action="http://echo.htmlacademy.ru"method="post" name="manufacturer">
   
  
-<h3>Популярные производители </h3>
-<input type="text" name="Все производители" value="Все производители">
+<h3 class="manufacturer">Популярные производители </h3>
+<input class="old-manufacturer" type="text" name="Все производители" value="Все производители">
 
 </form>
-
-
-
-</section>
-
-<section>
-<img src="img/perf1.png" alt="текст">
-<img src="img/perf2.png" alt="текст">
-<img src="img/perf3.png" alt="текст">
-<img src="img/perf4.png" alt="текст">
+<div>
 <img src="img/logo1.png" alt="текст">
 <img src="img/logo2.png" alt="текст">
 <img src="img/logo3.png" alt="текст">
@@ -118,14 +133,18 @@
 <img src="img/logo6.png" alt="текст">
 <img src="img/logo7.png" alt="текст">
 <img src="img/logo8.png" alt="текст">
+</div>
+
 </section>
+
+ 
 <section>
-<div><h3>Сервисы</h3>
+<div class="services"><h3 >Сервисы</h3>
 <p>Хороший интернет -магазин  отличается от плохого не  только ценами!<br>
 Мы стараемся изо всех  сил  чтобы сделать  ваши покупки приятными.
 </p>
 </div>
-<table>
+<table class="dgk">
 <tr>
 <td><a href="#">Доставка</a> </td>
 <td><a href="#">Гарантия</a></td>
@@ -136,7 +155,7 @@
 
 </table>
 
-<div>
+<div class="services-d">
 <h3>Доставка </h3>
 <p> Мы   с удовольствием доставим Ваш товар прямо   к  вашему подьезду совершенно бесплатно!Ведь  мы не   плохо заработаем поднимая его  на   Ваш  этаж! </p>
 <img src="img/car1.png" alt="текст">
@@ -144,7 +163,7 @@
 
 </section>
  
-<div>
+<div class="company">
 <h3>КОМПАНИЯ "ТЕХНОМАРТ"</h3>
 <p> Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и <br>    
 строительства не  оставит  равнодушными любителей сэкономить  на  гастрбайтерах.<br>
@@ -160,14 +179,14 @@
 <li>ЖелДорЭкспедиция</li>
 </ul>
 <form action="http://echo.htmlacademy.ru" type="text" name="about-us">
-<input type="text" name="Подробнее о  компании" value="Подробнее о  компании">
+<input class="about-us" type="text" name="Подробнее о  компании" value="Подробнее о  компании">
 </form>
 </div>
-<div>
+<div class="us-office">
 <h3>КОНТАКТЫ</h3>
-Вы можете забрать товар,заехав в  наш в офис:
-<img src="img/map.png" alt="Текс">
-<input action="http://echo.htmlacademy.ru" type="text" name="Заблудились?Напишите нам!" value="Заблудились? Напишите нам!">
+<span>Вы можете забрать товар,заехав в  наш в офис:</span>
+<img src="img/map.png" alt="#">
+<input class="letter" action="http://echo.htmlacademy.ru" type="text" name="Заблудились?Напишите нам!" value="Заблудились? Напишите нам!">
 
 </div>
 
@@ -177,10 +196,10 @@
 
 </main>
  <footer>
- <section>
+ <section class="footer-adress">
  <h1> ТЕХНОМАРТ</h1>
- г.Санкт-Петербург ул. Большая Конюшенная д19/8
- тел.7(812)555-05-55
+<span> г.Санкт-Петербург ул. Большая Конюшенная д19/8
+ тел.7(812)555-05-55</span>
  <ul class="footer-nav">
  
 
@@ -202,9 +221,9 @@
  Все  права защищены.
  
  Обратная связь:
- <a href="#">mail.htmlacademy.ru</a>
+ <a class="special-one" href="#">mail.htmlacademy.ru</a>
  Разработано-
- htmlacademy.ru
+<span class="special-one"> htmlacademy.ru</span>
  </section>
  
  
