@@ -4,16 +4,54 @@ padding:0;
 font-family: 'Cuprum', Arial, sans-serif;
 font-size:17px;
 color:#ffffff;
- background-color:black;
+ background-color:#ffffff;
 background-position:top-center; 
 background-repeat:no-repeat;
 }
+ .inner-page{
+margin:0;
+padding:0;
+font-family: 'Cuprum', Arial, sans-serif;
+font-size:17px;
+color:#ffffff;
+ background-color:#ffffff;
+background-position:top-center; 
+background-repeat:no-repeat;	
+}
+
 a{text-decoration:none;
 background-color:32425c;
 color:#ffffff;
  
 	
 }
+.space{
+background-color:#f4f7f9;	
+}
+.green{
+background-color:#63a63e;	
+}
+.goods{
+background-color:#f9f5f0;	
+}
+.drill{
+background-color:#5e524a;	
+}
+.deliver{
+background-color:#ffc047;	
+}
+.sail{
+background-color:#8ed78f;	
+}
+.equipment{
+background-color:#dc91d8;
+}	
+.materials-m{
+background-color:#ffbf47;
+}
+.instrument{
+background-color:#3bbce3;	
+}	
 .materials{
 font-size:24px;
 line-height:30px;
@@ -26,10 +64,21 @@ color:#ee3643;
 font-style:italic;
  
 }
+.street{
+color:#32425c;
+font-size:14px;
+line-height:24px;
+font-family:Cuprum;
+}
+.phone{
+color:#ee3643;	
+}
 .registration{
 font-size:21px;
 line-height:21px;
 color:#000000;
+ 
+ 
 }
 .popular{
 font-size:30px;
@@ -42,6 +91,11 @@ line-height:18px;
 background-color:#ee3643;
 color:#ffffff;
 }
+.grey{background-color:#f9f5f0;
+}
+.services-dilivers{
+background-color:#f5f8fa;	
+}
 .manufacturer{
 font-size:30px;
 line-height:30px;
@@ -50,7 +104,7 @@ color:#32425c;
 .old-manufacturer{
 font-size:14px;
 line-height:18px;
-background-color:#ee3643;
+ background-color:#ee3643;
 color:#ffffff;
 }	
 .tehnomart{
@@ -62,14 +116,30 @@ color:#ffffff;
 font-size:17px;
 line-height:18px;
 color:#ffffff;	
+background-color:#293449;
 }
  
-.main-nav li{
-list-style:none;	
+.main-nav li{background-color:#293449;
+list-style:none;
+font-size:17px;
+line-height:17px;
+font-family:Cuprum;	
 }
 .topmenu li{
 list-style:none;	
 }
+.text{
+color:#000000;	
+}
+strong{
+color:#ffffff;
+background-color:#ee3643;
+font-size:17px;
+line-height:18px;
+font-family:PT Sans;
+font-weight:bold;	
+}
+ 	
 .perf li{
 list-style:none;
 font-size:18px;
@@ -87,44 +157,47 @@ list-style:none;
 .delivery{
 list-style:none;	
 }
-.dgk{
+ .dgk td a{
+color:#32425c;	 
+ }
+.dgk{ 
 font-size:21px;
 line-height:30px;
 font-weight:bold;
 font-family:Cuprum;
 	
 }
-.services h3{
+.services h3{color:#32425c;
 font-size:30px;
 line-height:30px;
 font-family:Cuprum;	
 }
-.services p{
+.services p{color:#000000;
 font-size:13px;
 line-height:24px;
 font-family:PT Sans, sans-serif;	
 }
-.services-d h3{
+.services-d h3{color:#32425c;
 font-size:36px;
 line-height:36px;
 font-family:Cuprum;	
 }
-.services-d p{
+.services-d p{color:#3e4040;
 font-size:13px;
 line-height:24px;
 font-family:PT Sans, sans-serif;	
 }
-.company h3{
+.company h3{color:#000000;
 font-size:30px;
 line-height:30px;
 font-family:Cuprum;	
 }
-.company p{
+.company p{color:#424242;
 font-size:13px;
 line-height:24px;
 font-family:PT Sans, sans-serif;	
 }
-.delivery li{
+.delivery li{color:#262626;
 font-size:18px;
 line-height:20px;
 font-family:Cuprum;	
@@ -136,12 +209,12 @@ font-size:14px;
 line-height:18px;
 font-family:Cuprum;	
 }
-.us-office h3{
+.us-office h3{color:#000000;
 font-size:30px;
 line-height:30px;
 font-family:Cuprum;		
 }
-.us-office span{
+.us-office span{color:#000000;
 font-size:13px;
 line-height:24px;
 font-family:PT Sans, sans-serif;	
@@ -153,7 +226,13 @@ line-height:18px;
 font-family:Cuprum;
 color:#ffffff;	
 }
-.footer-adress h1{
+.communications{
+background-color:#293449;	
+}
+.footer-adress{
+background-color:#32425c;	
+}
+.footer-adress h1{background-color:#ee3643;
 font-size:30px;
 line-height:30px;
 font-family:Cuprum;	

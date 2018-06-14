@@ -9,14 +9,15 @@
 	<link rel="stylesheet" href="css/style.css">
   </head>
   
-  <body>   
+  <body class="inner-page">   
 	<header>
 		<img src="" alt="логотип">
 		<form action="http://echo.htmlacademy.ru" method="post" name="">
 		<input type="search" class="search">
 		</form>
-		<h1 class="tehnomart">Техномарт</h1>
+		 
 		<ul class="topmenu">
+ <h1 class="tehnomart">Техномарт</h1>
 		
 		<li>
 		<form action="http://echo.htmlacademy.ru"method="post" name="search">
@@ -30,20 +31,22 @@
 			<a href="#">Корзина</a>
 			</li>
 			<li>
-			<a href="#">Оформить заказ</a>
+			<a  class="green"href="#">Оформить заказ</a>
 			</li>
 		</ul>
+		<div class="space">
 		<div class="contacts">
 		 Интернет-магазин строительных материалов и  инструментов для ремонта 
 		</div>
 		 <div class="adress"> 
-		  +7(812)555 05 55 ул.Большая Конюшенная д.15 
+		<span class="phone">  +7(812)555 05 55</span> <span class="street">ул.Большая Конюшенная д.15 </span> 
 		 </div>
 		 <div class="registration"> 
 		 <form action="http://echo.htmlacademy.ru"method="post" name="registration">
 		 <input type="text" name="войти" value="Войти">
 		 <input type="text" name="регистрация" value="Регистрация">
 		 </form>
+		 </div>
 		 </div>
 		 <nav class="main-nav">
 		 <ul>
@@ -60,25 +63,25 @@
 <main>
 <section class="materials">
 <div>
-<h3><a href="#">Материалы</a> </h3>      
+<h3><a href="#" class="materials-m">Материалы</a> </h3>      
 </div>
 <div>
-<h3><a href="#">Инструмент</a> </h3>
+<h3><a href="#" class="instrument">Инструмент</a> </h3>
 </div>
 <div>
-<h3><a href="#">Техника</a> </h3>
+<h3><a href="#" class="equipment">Техника</a> </h3>
 </div>
 <div>
-<h3><a href="#">Скидки 50%</a> </h3>
+<h3><a href="#" class="sail">Скидки 50%</a> </h3>
 </div>
 <div>
-<h3><a href="#">Доставка</a></h3>
+<h3><a href="#" class="deliver">Доставка</a></h3>
 </div>
 <div>
-<h3><a href="#">Дрели</a></h3>
+<h3><a href="#" class="drill">Дрели</a></h3>
 </div>
 </section>
- <div>
+ <div class="goods">
  <span class="popular">Популярные товары </span>
  <form action="http://echo.htmlacademy.ru"method="post" name="goods">
  <input class="old-popular" tape="text" name="Все популярные товары" value="Все популярные товары" >
@@ -89,16 +92,16 @@
 <div class="perf">
 <ul> 
 <li><img src="img/perf1.png" alt="текст">
-Перфоратор BOSH BFG 9000 25500p
+<span class="text">Перфоратор BOSH BFG 9000 <strong>25500p</strong></span>
 </li>
 <li><img src="img/perf2.png" alt="текст">
-Перфоратор BOSH BFG 3000 15500p
+<span class="text">Перфоратор BOSH BFG 3000 <strong>15500p</strong></span>
 </li>
 <li><img src="img/perf3.png" alt="текст">
-Перфоратор BOSH BFG 6000 25500р
+<span class="text">Перфоратор BOSH BFG 6000 <strong>25500р</strong></span>
 </li>
 <li><img src="img/perf4.png" alt="текст">
-Перфоратор BOSH BFG 2000 12500p
+<span class="text">Перфоратор BOSH BFG 2000 <strong>12500p</strong></span>
 </li>
 </ul>
 </div>
@@ -117,12 +120,12 @@
 <section>
  
 
-<form action="http://echo.htmlacademy.ru"method="post" name="manufacturer">
+<form   action="http://echo.htmlacademy.ru"method="post" name="manufacturer">
   
- 
+ <div class="grey">
 <h3 class="manufacturer">Популярные производители </h3>
 <input class="old-manufacturer" type="text" name="Все производители" value="Все производители">
-
+</div>
 </form>
 <div>
 <img src="img/logo1.png" alt="текст">
@@ -138,8 +141,8 @@
 </section>
 
  
-<section>
-<div class="services"><h3 >Сервисы</h3>
+<section class="services-dilivers">
+<div class="services"> <h3 >Сервисы</h3>
 <p>Хороший интернет -магазин  отличается от плохого не  только ценами!<br>
 Мы стараемся изо всех  сил  чтобы сделать  ваши покупки приятными.
 </p>
@@ -197,6 +200,7 @@
 </main>
  <footer>
  <section class="footer-adress">
+  
  <h1> ТЕХНОМАРТ</h1>
 <span> г.Санкт-Петербург ул. Большая Конюшенная д19/8
  тел.7(812)555-05-55</span>
@@ -216,7 +220,8 @@
  <li><a href="#">Инструмент</a></li>
  <li><a href="#">Спецпредложения</a></li>
  </ul>
- 
+ </section>
+ <div class="communications">
  2010-2017 Компания "Техномарт"
  Все  права защищены.
  
@@ -224,7 +229,7 @@
  <a class="special-one" href="#">mail.htmlacademy.ru</a>
  Разработано-
 <span class="special-one"> htmlacademy.ru</span>
- </section>
+ </div>
  
  
  
