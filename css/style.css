@@ -1,5 +1,6 @@
- body{
-margin:0;
+ body{width:1200px;
+ 
+margin:0 auto;
 padding:0;
 font-family: 'Cuprum', Arial, sans-serif;
 font-size:17px;
@@ -8,22 +9,18 @@ color:#ffffff;
 background-position:top-center; 
 background-repeat:no-repeat;
 }
- .inner-page{
-margin:0;
-padding:0;
-font-family: 'Cuprum', Arial, sans-serif;
-font-size:17px;
-color:#ffffff;
- background-color:#ffffff;
-background-position:top-center; 
-background-repeat:no-repeat;	
-}
 
 a{text-decoration:none;
 background-color:32425c;
 color:#ffffff;
  
 	
+}
+.search{
+background-color:#ee3643;
+color:#ffffff;
+font-size:24px;
+line-height:24px;	
 }
 .space{
 background-color:#f4f7f9;	
@@ -55,13 +52,27 @@ background-color:#3bbce3;
 .materials{
 font-size:24px;
 line-height:30px;
-font-weight:bold;	
+font-weight:bold;
+display:flex;	
+}
+.materials .wrapper {
+	display:flex;
+	flex-wrap:wrap;
+}
+.materials .wrapper:first-child {
+	 width:630px;
+	
+}
+.materials .wrapper>div:not(.drill){
+	width:300px;
+	height:125px;
 }
 .contacts {
 font-size:16px;
 line-height:23px;
 color:#ee3643;
 font-style:italic;
+margin: 0  auto;
  
 }
 .street{
@@ -70,8 +81,9 @@ font-size:14px;
 line-height:24px;
 font-family:Cuprum;
 }
-.phone{
-color:#ee3643;	
+.phone {margin-top:
+color:#ee3643;
+border:1 px solid #feffff; 	
 }
 .registration{
 font-size:21px;
@@ -112,21 +124,64 @@ color:#ffffff;
 	line-height:24px;
 	 
 }
-.topmenu{
+.menu-wrap
+{
+	background-color:#293449;
+	display:flex;
+}
+.topmenu{display:flex;
 font-size:17px;
 line-height:18px;
 color:#ffffff;	
-background-color:#293449;
+flex-grow:1;
+height:45px;
+margin:0;
 }
  
-.main-nav li{background-color:#293449;
+.main-nav ul{   
+display:flex;
+min-height:60px;
+width:940px;
+padding: 0;
+background-color:#293449;
+margin:0 auto;	
+}
+ 
+.main-nav li{  
+color:#ffffff;	 
 list-style:none;
 font-size:17px;
 line-height:17px;
 font-family:Cuprum;	
+flex-grow:1;
+ 
+
+}
+.main-nav a { 
+	display:block;
+	padding:20px 0;
+	text-align:center;
+}
+
+.topmenu a{
+	display:block;
+	padding:12px 20px;
+}
+.topmenu input{
 }
 .topmenu li{
 list-style:none;	
+}
+.logo{
+margin-left:20px;
+margin-bottom:-15x;
+}
+.topmenu>li:first-child
+{
+	flex-grow:1;
+}
+.green{
+height:21px;	
 }
 .text{
 color:#000000;	
@@ -258,4 +313,9 @@ font-size:16px;
 	line-height:18px;
 color:#ffd180;
 font-family:Cuprum;	
+}
+.main-header { 
+margin-bottom:65px;	
+min-height:320px;
+min-width:1200px;
 }
